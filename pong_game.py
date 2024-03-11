@@ -11,7 +11,7 @@ window.bgcolor("green")
 window.setup(width=800,height=600)
 window.tracer(0)
   
-#Creating the left paddle
+#Creating the left paddle hog
 leftpaddle=t.Turtle()
 leftpaddle.speed(0)
 leftpaddle.shape("square")
