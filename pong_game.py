@@ -72,8 +72,8 @@ def rightpaddledown():
   
 #Assign keys to play
 window.listen()
-window.onkeypress(leftpaddleup,'w')
-window.onkeypress(leftpaddledown,'s')
+window.onkeypress(leftpaddleup,'e')
+window.onkeypress(leftpaddledown,'d')
 window.onkeypress(rightpaddleup,'o')
 window.onkeypress(rightpaddledown,'l')
   
