@@ -39,5 +39,5 @@ jobs:
         pytest
     - name: Fetch the person get
       id: get-person-name
-      run: python src/Test.py
+      run: python Test.py
       shell: bash
