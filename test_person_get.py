@@ -46,7 +46,7 @@ class Test(unittest.TestCase):
         print("user_name length = ", len(self.user_name))
         for i in range(6):
             # if i not exceed total length then verify the returned name
-            if i < length:
+            if i > length:
                 # if the two name not matches it will fail the test case
                 self.assertEqual(self.user_name[i], self.person.get_name(self.user_id[i]))
             else:
